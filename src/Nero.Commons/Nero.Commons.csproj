@@ -6,8 +6,4 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
-    <ItemGroup>
-      <ProjectReference Include="..\Nero.Windowing\Nero.Windowing.csproj" />
-    </ItemGroup>
-
 </Project>

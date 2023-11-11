@@ -7,7 +7,11 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Nero.Windowing\Nero.Windowing.csproj" />
+      <PackageReference Include="SilkyNvg" Version="1.0.4" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Nero.Commons\Nero.Commons.csproj" />
     </ItemGroup>
 
 </Project>
