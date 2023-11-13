@@ -5,6 +5,7 @@ public readonly struct WindowCreationOpts
     public string Title { get; init; }
     public (int, int) Size { get; init; }
     public View View { get; init; }
+    public Monitor? Monitor { get; init; }
 
     public WindowCreationOpts()
     {
